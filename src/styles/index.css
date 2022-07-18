@@ -1,0 +1,144 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #0F044C;
+    color: #f0ffff;
+}
+/* Navigation bar styling */
+.navbar {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    gap: 5rem;
+    background-color: #FFD31D;
+    font-size: 20px;
+    
+  }
+
+ 
+  .link {
+    color: #0F044C;
+    text-decoration: none;
+    padding: 2rem;
+  }
+  
+  .active {
+    color: #0F044C;
+    font-weight: 500;
+    background-color: #0F044C;
+    color:#f0ffff;
+
+  }
+  /* Footer */
+  footer {
+      bottom:0;
+      position:fixed;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+  /* Button Styling */
+
+  .btn-container {
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-flex;
+    padding: 10px;
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+   
+  }
+/* Form styling */
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+form{
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
+
+form h1{
+  color:  #0F044C;
+  text-align: center;
+}
+
+.inputdata {
+  padding: 15px;
+  margin: 10px 0;
+  color: #0F044C
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+
+}
+
+label {
+  color: #0F044C;
+}
+
+/* org-chart styling */
+#tophead .caret {
+    position: relative;
+    font-size: 1em;
+    cursor: pointer;
+    border-style: groove;
+    width: 200px;
+    height: 75px;
+    margin-bottom: 20px;
+    
+}
+#tophead li {
+  list-style-type: none;
+}
+
+#tophead ul {
+  list-style-type: none;
+  border-left: 1px solid rgb(247, 224, 25);
+  padding: 0;
+  margin: 0;
+  padding-left: 35px;
+}
+
+#tophead ul li {
+  list-style: none;
+  position: relative;
+  text-transform: capitalize;
+}
+
+#tophead ul li:before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: -35px;
+  background: rgb(242, 245, 49);
+  height: 1px;
+  width: 32px;
+}
+
+#tophead ul li::after:only-child{
+  display: block;
+}
+  
+
+
+

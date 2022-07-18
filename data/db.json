@@ -1,0 +1,145 @@
+{
+  "employeesTree": [
+    {
+      "name": "John Smith",
+      "employeeId": 1,
+      "role": "CEO",
+      "startDate": "2008-01-01",
+      "onLeave": false,
+      "level": 1,
+      "reportee": [
+        {
+          "name": "Brian Snow",
+          "employeeId": 2,
+          "role": "Vice President",
+          "startDate": "2008-02-01",
+          "onLeave": false,
+          "level": 2,
+          "reportee": [
+            {
+              "name": "John Doe",
+              "employeeId": 3,
+              "role": "Director",
+              "startDate": "2008-09-10",
+              "onLeave": false,
+              "level": 3,
+              "reportee": [
+                {
+                  "name": "Stephaine Beth",
+                  "employeeId": 4,
+                  "role": "Manager",
+                  "startDate": "2008-03-05",
+                  "onLeave": false,
+                  "level": 4,
+                  "reportee": [
+                    {
+                      "name": "Alice Vu",
+                      "employeeId": 6,
+                      "role": "Individual Contributor",
+                      "startDate": "2008-03-05",
+                      "onLeave": false,
+                      "level": 5,
+                      "reportee": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Lee Collins",
+                  "employeeId": 5,
+                  "role": "Manager",
+                  "startDate": "2008-04-05",
+                  "onLeave": false,
+                  "level": 4,
+                  "reportee": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "employers": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Smith",
+      "role": "CEO",
+      "startDate": "2008-01-01",
+      "onLeave": false,
+      "reportsto": "None"
+    },
+    {
+      "id": 2,
+      "firstname": "Brian",
+      "lastname": "Snow",
+      "role": "Vice President",
+      "startDate": "2008-02-01",
+      "onLeave": false,
+      "reportsTo": "John Smith"
+    },
+    {
+      "id": 3,
+      "firstname": "John",
+      "lastname": "Doe",
+      "role": "Director",
+      "startDate": "2008-09-10",
+      "onLeave": false,
+      "reportsTo": "Brian Snow"
+    },
+    {
+      "id": 4,
+      "firstname": "Stephaine",
+      "lastname": "Beth",
+      "role": "Manager",
+      "startDate": "2008-03-05",
+      "onLeave": false,
+      "reportsTo": "John Doe"
+    },
+    {
+      "id": 5,
+      "firstname": "Lee",
+      "lastname": "Collin",
+      "role": "Manager",
+      "startDate": "2008-04-05",
+      "onLeave": false,
+      "reportsTo": "John Doe"
+    },
+    {
+      "id": 6,
+      "firstname": "Alice",
+      "lastname": "Vu",
+      "role": "Individual Contributor",
+      "startDate": "2008-03-05",
+      "onLeave": false,
+      "reportsTo": "Lee Collin"
+    },
+    {
+      "id": 7,
+      "firstname": "Kalyani",
+      "lastname": "Soniminde",
+      "role": "Individual Contributor",
+      "startDate": "2022-07-05",
+      "onLeave": false,
+      "reportsTo": "Alice Vu"
+    },
+    {
+      "id": 8,
+      "firstname": "Alice",
+      "lastname": "Wang",
+      "role": "Manager",
+      "startDate": "2022-07-07",
+      "onLeave": false,
+      "reportsTo": "Brian Snow"
+    },
+    {
+      "id": 9,
+      "firstname": "abc",
+      "lastname": "xyz",
+      "role": "Individual Contributor",
+      "startDate": "2022-07-06",
+      "onLeave": false,
+      "reportsTo": "Alice Vu"
+    }
+  ]
+}
